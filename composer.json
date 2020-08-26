@@ -1,0 +1,19 @@
+{
+  "name": "thinkverse/package-tutorial",
+  "type": "library",
+  "description": "Package built for my Package Tutorial.",
+  "homepage": "https://github.com/thinkverse/package-tutorial",
+  "license": "MIT",
+  "authors": [{
+    "name": "Kim <thinkverse> Hallberg",
+    "email": "hallberg.kim@gmail.com"
+  }],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Thinkverse\\": "src/"
+    }
+  }
+}
